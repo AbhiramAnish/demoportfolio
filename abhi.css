@@ -1,0 +1,21 @@
+.heading{
+    background-color: #1E0342;
+}
+
+.icons{
+    color: #1E0342;
+}
+
+
+.submitbutton:hover{
+    background-color:#214475;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile{
+    border-radius: 44px 112px 44px 116px;
+    height: 50vmin;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
