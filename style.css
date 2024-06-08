@@ -24,7 +24,9 @@
 }
 
 @keyframes example {
-    0%   {border-radius: 44px 112px 44px 116px;}
-    50%   {border-radius:112px 44px 116px 44px; }
-    100%   {border-radius: 44px 112px 44px 116px;}
+    0%   {border-radius: 44px 112px 44px 116px;
+            filter: grayscale(0%);}
+    50%   {border-radius:112px 44px 116px 44px;  filter: grayscale(100%);}
+    100%   {border-radius: 44px 112px 44px 116px;
+            filter: grayscale(0%);}
   }
