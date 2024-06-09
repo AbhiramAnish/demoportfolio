@@ -1,7 +1,11 @@
 .heading{
     background-color: #1E0342;
 }
-
+body{
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
 .icons{
     color: #1E0342;
 }
@@ -30,3 +34,8 @@
     100%   {border-radius: 44px 112px 44px 116px;
             filter: grayscale(0%);}
   }
+
+  .row{
+    width: 100%;
+  }
+ 
